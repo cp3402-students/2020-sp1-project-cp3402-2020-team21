@@ -1,8 +1,10 @@
 /*!
 Theme Name: Jazz
-Author: CP3402 Team 21
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
 Description: Description
-Version: 1.0.1
+Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: jazz
@@ -948,4 +950,88 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+/*--------------------------------------------------------------
+## Additional CSS
+--------------------------------------------------------------*/
+header {
+	background-color: #3d4f59;
+	padding: 0px;
+}
+
+nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 40px;
+	overflow: hidden;
+	background-color: #dec171;
+
+}
+
+ul{
+	float: left;
+	padding: 10px;
+}
+
+a{
+	padding: 0px;
+}
+
+.sub-menu{
+	position: relative;
+  display: inline-block;
+}
+
+li{
+	padding: 10px;
+}
+
+
+.sub-menu{
+	padding: 0px;
+}
+
+.entry-header{
+	padding: 15px 200px;
+	background-color: #7fa6bd;;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+	
+}
+
+main{
+	padding: 0px 50px;
+	background-color: white;
+}
+
+article{
+	background-color:#7fa6bd;
+}
+.entry-title {
+	background-color: #7fa6bd;
+}
+
+.entry-content{
+	padding: 10px 200px;
+}
+
+
+figcaption {
+	text-align: center;
+}
+
+img {
+	align-content: center;
+}
+
+footer {
+	text-align: center;
+	padding: 75px;
+	background-color: #3d4f59;
+		
 }
